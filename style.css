@@ -103,3 +103,46 @@ a:hover{
         float: none;
     }
 }
+
+.feladvany{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+.feladvany div{
+    /* border: 1px solid black; */
+    margin: 10px;
+    padding: 15px;
+}
+
+#fin_img{
+    
+    row-gap: 2;
+}
+
+#fin0{
+    row-gap: 1;
+}
+
+#chessboard{
+    display: block;
+    margin: auto;
+    justify-self:center;
+    width: 300px;
+    z-index: 1;
+    
+}
+
+.figure{
+    display: inline-block;
+    width: 27px;
+}
+
+.open{
+    width: 100px;
+}
+
