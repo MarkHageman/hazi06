@@ -1,0 +1,105 @@
+body{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(250, 210, 250);
+}
+
+.content{
+    width: 100%;
+}
+
+.image{
+    float: left;
+    margin: 15px;
+}
+
+.container{
+    margin: 50px;
+}
+.CV{
+    margin: 15px;
+    padding: 10px;
+}
+
+.elochess{
+    clear: left;
+}
+
+.text{
+    text-align: justify;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+
+h1{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: purple;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.elochess{
+    margin: 15px;
+    padding: 10px;
+}
+
+.ELO{
+    margin: 15px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    padding: 1px;
+    margin: 5px;
+}
+
+a:link{
+    color: black;
+    background-color: magenta;
+    
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    background-color: white;
+    color: lawngreen;
+}
+
+
+@media screen and (max-width: 600px) {
+    body{
+        width: 100%
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    body{
+        width: 100%;
+    }
+    .image{
+        float: none;
+    }
+}
