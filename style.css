@@ -91,6 +91,53 @@ a:hover{
 @media screen and (max-width: 600px) {
     body{
         width: 100%
+    }#open_reti0{
+        border: 3px solid lawngreen;
+        position: relative;
+        z-index: 5;
+        transition: width 2s, transform 2s;
+        transition-timing-function: ease-in;
+        transition-delay: 0s;
+    }
+    
+    #open_reti1{
+        border: 3px solid red;
+        position: relative;
+        z-index: 4;
+        left: 0px;
+        transition: width 2s, transform 2s;
+        transition-timing-function: ease-in;
+        transition-delay: 0s;
+    }
+    
+    #open_reti2{
+        border: 3px solid purple;
+        position: relative;
+        z-index: 3;
+        left: 0px
+        transition: width 2s, transform 2s;
+        transition-timing-function: ease-in;
+        transition-delay: 0s;
+    }
+    
+    #open_reti3{
+        border: 3px solid brown;
+        position: relative;
+        z-index: 2;
+        left: 0px;
+        transition: width 2s, transform 2s;
+        transition-timing-function: ease-in;
+        transition-delay: 0s;
+    }
+    
+    #open_reti4{
+        border: 3px solid turquoise;
+        position: relative;
+        z-index: 1;
+        left: none;
+        transition: width 2s, transform 2s;
+        transition-timing-function: ease-in;
+        transition-delay: 0s;
     }
     
 }
@@ -101,6 +148,54 @@ a:hover{
     }
     .image{
         float: none;
+    }
+    #open_reti0{
+        border: 3px solid lawngreen;
+        position: relative;
+        z-index: 5;
+        transition: width 2s, transform 2s;
+        transition-timing-function: ease-in;
+        transition-delay: 0s;
+    }
+    
+    #open_reti1{
+        border: 3px solid red;
+        position: relative;
+        z-index: 4;
+        left: 0px;
+        transition: width 2s, transform 2s;
+        transition-timing-function: ease-in;
+        transition-delay: 0s;
+    }
+    
+    #open_reti2{
+        border: 3px solid purple;
+        position: relative;
+        z-index: 3;
+        left: 0px;
+        transition: width 2s, transform 2s;
+        transition-timing-function: ease-in;
+        transition-delay: 0s;
+    }
+    
+    #open_reti3{
+        border: 3px solid brown;
+        position: relative;
+        z-index: 2;
+        left: 0px;
+        transition: width 2s, transform 2s;
+        transition-timing-function: ease-in;
+        transition-delay: 0s;
+    }
+    
+    #open_reti4{
+        border: 3px solid turquoise;
+        position: relative;
+        z-index: 1;
+        left: 0px;
+        transition: width 2s, transform 2s;
+        transition-timing-function: ease-in;
+        transition-delay: 0s;
     }
 }
 
@@ -119,30 +214,79 @@ a:hover{
     padding: 15px;
 }
 
-#fin_img{
-    
-    row-gap: 2;
-}
 
-#fin0{
-    row-gap: 1;
-}
 
-#chessboard{
-    display: block;
-    margin: auto;
-    justify-self:center;
-    width: 300px;
-    z-index: 1;
-    
-}
-
-.figure{
-    display: inline-block;
-    width: 27px;
+.table{
+    margin: 15px;
+    padding: 10px;
 }
 
 .open{
-    width: 100px;
+    display: inline-block;
+    width: 150px;
+    
 }
 
+#open_reti0{
+    border: 3px solid lawngreen;
+    position: relative;
+    z-index: 5;
+    transition: width 2s, transform 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+
+#open_reti1{
+    border: 3px solid red;
+    position: relative;
+    z-index: 4;
+    left: -120px;
+    transition: width 2s, transform 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+
+#open_reti2{
+    border: 3px solid purple;
+    position: relative;
+    z-index: 3;
+    left: -240px;
+    transition: width 2s, transform 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+
+#open_reti3{
+    border: 3px solid brown;
+    position: relative;
+    z-index: 2;
+    left: -360px;
+    transition: width 2s, transform 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+
+#open_reti4{
+    border: 3px solid turquoise;
+    position: relative;
+    z-index: 1;
+    left: -480px;
+    transition: width 2s, transform 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+
+#open_reti1:hover{
+    transform: translate(480px)
+}
+
+#open_reti2:hover{
+    transform: translate(480px)
+}
+
+#open_reti3:hover{
+    transform: translate(480px)
+}
+#open_reti4:hover{
+    transform: translate(480px)
+}
